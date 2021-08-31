@@ -17,3 +17,4 @@ function redirect($http = false){
         return isset($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUESTED_WITH'] === 'XMLHttpRequest';
     }
 ---------------------------------------------------------------------------------------------------------------
+echo 'Hello ,Dolly';
